@@ -1,0 +1,48 @@
+
+/* ...................... MI CSS .................... */
+
+/* #div3d {
+  display: flex;
+  width: 100%;
+  height: 100%;
+} */
+
+
+#navBar {
+  width: 100vw;
+  margin-top: -50vh !important;
+  padding: .6%;
+  background-color: #050a30;
+}
+
+#navDiv {
+  margin-left: 2%;
+}
+
+#imgLogo {
+  border-radius: 1.9em;
+}
+
+#navList {
+  margin-left: 6%;
+}
+
+.aLight {
+  color: antiquewhite !important;
+  size: 120%;
+}
+
+.aLight:hover {
+  color: rgb(212, 230, 242) !important;
+  text-shadow: rgb(111, 137, 150) 1px 0 10px !important;
+}
+
+#divCartWidget {
+  margin-right: 3.2%;
+  display: flex;
+}
+
+#h6CartQuant {
+  margin-left: 15%;
+  color: antiquewhite;
+}
