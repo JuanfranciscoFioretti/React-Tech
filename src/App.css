@@ -7,12 +7,21 @@
   height: 100%;
 } */
 
+body {
+  overflow-x: hidden;
+  background-color: #2e3f6ea9;
+}
+
+
+/* NAVBAR */
 
 #navBar {
   width: 100vw;
-  margin-top: -50vh !important;
+  top: 0px;
+  position: sticky;
   padding: .6%;
   background-color: #050a30;
+  z-index: 1;
 }
 
 #navDiv {
@@ -28,13 +37,13 @@
 }
 
 .aLight {
-  color: antiquewhite !important;
+  color: rgb(252, 242, 228) !important;
   size: 120%;
 }
 
 .aLight:hover {
   color: rgb(212, 230, 242) !important;
-  text-shadow: rgb(111, 137, 150) 1px 0 10px !important;
+  text-shadow: rgb(111, 137, 150) 0.3px 0 10px !important;
 }
 
 #divCartWidget {
@@ -46,3 +55,61 @@
   margin-left: 15%;
   color: antiquewhite;
 }
+
+/* NAVBAR */
+
+
+
+/* ITEM LIST CONTAINER  */
+
+#divItemListContainer {
+  margin-top: 5em;
+  margin-bottom: 6em;
+}
+
+.card-size {
+  width: 80%;
+  height: 450px;
+}
+
+.card-size:hover {
+  box-shadow: 4px 4px 4px 4px rgba(30, 27, 27, 0.418);
+}
+
+.img-card {
+  height: 90%;
+  width: 90%;
+  /* z-index: 0; */
+}
+
+.img-card:hover {
+  background-color: #050a30;
+}
+
+/* ITEM LIST CONTAINER  */
+
+
+
+
+
+
+
+
+
+
+
+/* ITEM COUNT CSS */
+/* 
+#divItemCount {
+  width: 40%;
+  background-color: rgba(50, 16, 142, 0.849);
+  padding: 2%;
+  border-radius: 1em;
+  margin-bottom: -25%;
+}
+
+.whiteTextItemCount {
+  color: whitesmoke;
+} */
+
+/* ITEM COUNT CSS */
