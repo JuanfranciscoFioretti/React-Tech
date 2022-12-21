@@ -17,8 +17,8 @@ body {
 
 #navBar {
   width: 100vw;
-  top: 0px;
-  position: sticky;
+  /* top: 0px !important;
+  position: sticky !important; */
   padding: .6%;
   background-color: #050a30;
   z-index: 1;
@@ -63,22 +63,26 @@ body {
 /* ITEM LIST CONTAINER  */
 
 #divItemListContainer {
-  margin-top: 5em;
+  margin-top: 170px;
   margin-bottom: 6em;
+  /* margin-left: 6%; */
 }
 
 .card-size {
   width: 80%;
-  height: 450px;
+  height: 460px;
 }
 
 .card-size:hover {
   box-shadow: 4px 4px 4px 4px rgba(30, 27, 27, 0.418);
+  top: -6px;
 }
 
 .img-card {
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
+  margin-top: 15px;
+  padding-bottom: -15px;
   /* z-index: 0; */
 }
 
@@ -86,7 +90,125 @@ body {
   background-color: #050a30;
 }
 
+.card-text {
+  padding-bottom: 3px;
+}
+
+.product-description {
+  height: 70%;
+}
+
 /* ITEM LIST CONTAINER  */
+
+
+
+/* LOADER */
+
+.divLoader {
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 50vw;
+  margin-right: -50vw;
+}
+
+/* LOADER */
+
+
+
+/* ITEM DETAIL */
+
+/* .detailsBig {
+  display: flex;
+} */
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* top: 0; */
+  margin-top: 15%;
+}
+
+.big-img {
+  max-width: 500px;
+  min-width: 290px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.big-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  display: block;
+  object-fit: cover;
+}
+
+.box {
+  max-width: 500px;
+  min-width: 290px;
+  margin: 25px;
+}
+
+.box .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.box .row h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box .row span {
+  color: red;
+}
+
+.box p {
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.thumb {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.thumb img {
+  width: 90px;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.thumb img.active {
+  opacity: 1;
+  border: 1px solid lightseagreen;
+}
+
+.box .cart {
+  background-color: #333;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+
+
+
+/* ITEM DETAIL */
+
 
 
 

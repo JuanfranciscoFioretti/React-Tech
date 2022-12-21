@@ -1,8 +1,12 @@
 import React from 'react'
+import HashLoader from "react-spinners/HashLoader";
+
 
 const Loader = () => {
     return (
-        <div>Loader</div>
+        <div className='divLoader'>
+            <HashLoader color="#a436d6"/>
+        </div>
     )
 }
 
